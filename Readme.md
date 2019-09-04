@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [areshka areshka](https://up.htmlacademy.ru/htmlcss/26/user/225003).
-* Наставник: [Дарья Клюхина](https://htmlacademy.ru/profile/id125399).
+* Наставник: [Дарья Клюхина !!!](https://htmlacademy.ru/profile/id125399).
 
 ---
 

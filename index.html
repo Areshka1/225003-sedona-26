@@ -7,7 +7,7 @@
   <body>
   	<header>
   		<a href="index.html">
-			<img src="img/logo.png" width="138" height="71" alt="logo">
+			<img src="img/logo.png" width="138" height="71" alt="Логотип">
 		</a>
 	<nav>
 		<ul>
@@ -19,7 +19,7 @@
 	</nav>
     </header>
     <main>
-		<img src="img/background_img.jpg" width="1200" height="773" alt="background">
+		<img src="img/welcome_intro.png" width="459" height="353" alt="Приветствие для входящих на страницу">
 		<div>
 			<h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
 			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
@@ -28,20 +28,20 @@
 			<h2>Настоящий городок </h2>
 			<span>-№1-</span>
 			<p>Седона — не аттракцион для туристов,там течет своя жизнь</p>
-			<img src="img/advantage-img-1.jpg" width="800" height="400" alt="advantage-img-1">
+			<img src="img/advantage-img-1.jpg" width="800" height="400" alt="Изображение с видом на ресторан">
 			<ul>
 				<li>
-					<img src="img/icon-house.svg" width="74" height="70" alt="icon-house">
+					<img src="img/icon-house.svg" width="74" height="70" alt="иконка домика">
 					<h2>Жильё</h2>
 					<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
 				</li>
 				<li>
-					<img src="img/icon-food.svg" width="74" height="70" alt="icon-food">
+					<img src="img/icon-food.svg" width="74" height="70" alt="иконка бургера">
 					<h2>Еда</h2>
 					<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 				</li>
 				<li>
-					<img src="img/icon-gift.svg" width="74" height="70" alt="icon-gift">
+					<img src="img/icon-gift.svg" width="74" height="70" alt="иконка подарка">
 					<h2>Сувениры</h2>
 					<p>Не только китайского, но и местного производства!</p>
 				</li>
@@ -49,7 +49,7 @@
 			<h2>Там есть Мост дьявола </h2>
 			<span>-№2-</span>
 			<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-			<img src="img/advantage-img-2.jpg" width="800" height="400" alt="advantage-img-2">
+			<img src="img/advantage-img-2.jpg" width="800" height="400" alt="Изображение с тропой именуемой Мост Дьявола">
 			<h2>Небольшая площадь</h2>
 			<span>-№3-</span>
 			<p>Все достопримечательности находятся очень близко</p>
@@ -65,9 +65,29 @@
 			<b>Заинтересовались?</b>
 			<p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 		</div>
-		<!--Сдесь карта и форма-->
-		<div><div>
-		<!--  -->
+		<h3>ПОИСК ГОСТИНИЦЫ В седоне</h3>
+		<form class="hotels" method="post"
+				action="https://echo.htmlacademy.ru">
+		<p>
+			<!--как вложить картинку календарика?-->
+			<label for="arrival-date">Дата заезда:</label>
+			<input id="arrival-date" type="text" name="Дата заезда:" placeholder="24 апреля 2017">
+		</p>			
+		<p>
+			<label for="departure-date">Дата выезда:</label>
+			<input id="departure-date" type="text" name="Дата выезда:" placeholder="4 июля 2017">
+		</p>
+		<!--не понимаю как менять цифру при нажатии-->
+		<p>Взрослые:</p>
+		<button type="button">-</button>
+		<input type="text" name="buttons" value="2">	
+		<button type="button">+</button>
+		<p>Дети:</p>
+		<button type="button">-</button>
+		<input type="text" name="buttons" value="0">	
+		<button type="button">+</button>
+		<button type="submit">Найти</button>
+		</form>
 	</main>
 	<footer>
 		<b>#visitSEDONA</b>
@@ -79,7 +99,8 @@
 		</ul>
 	</div>
 	<p>Website by
-	<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="logo-htmlacademy"></a>
+		<!--хоть убей,не поняла как делать инлайном-->
+	<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип академии"></a>
 	</p>
 	</footer>
   </body>

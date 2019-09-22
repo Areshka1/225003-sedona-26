@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	padding: 0;
+	/*текст выглядит расплывчато,так и надо?*/
+	font-family: PT Sans Regular, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	color:#000000;
+	text-transform: uppercase;	
+}
+a{
+	text-decoration: none;
+}
+main{
+	background-color: #365978;
+}
+/*не получается((( */
+#academy_logo a:focus{
+	background-color: #94bed9;
+}
